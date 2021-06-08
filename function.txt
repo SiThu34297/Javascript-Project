@@ -1,7 +1,9 @@
-function getName(name , age , studentID , major){
-    var name = name;
-    var age = age;
-    var studentID = studentID;
-    var major = major;
-    console.log(`Name ${name} , Age ${age} , StudentID ${studentID} , Major ${major}`);
+function getStudentInfo(name , age , studentID , major){
+    let name = name;
+    let age = age;
+    let studentID = studentID;
+    let major = major;
+    return {
+        name, age, studentID, major 
+    }
 }
