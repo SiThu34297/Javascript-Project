@@ -1,0 +1,7 @@
+function getName(name , age , studentID , major){
+    var name = name;
+    var age = age;
+    var studentID = studentID;
+    var major = major;
+    console.log(`Name ${name} , Age ${age} , StudentID ${studentID} , Major ${major}`);
+}
